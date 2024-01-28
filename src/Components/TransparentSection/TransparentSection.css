@@ -1,0 +1,27 @@
+.rn-trans-section {
+
+    border-radius: 1rem;
+    background: #242424;
+    margin: 2.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.rn-trans-section .rn-row {
+    display: flex;
+    gap: 1.38rem;
+}
+
+.rn-trans-section .rn-row .rn-img-source {
+    width: 50%;
+    margin: 2.5rem 0;
+}
+
+.rn-trans-section .rn-row .rn-img-source img {
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+    .rn-trans-section .rn-row {
+        flex-direction: column;
+    }
+}

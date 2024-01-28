@@ -1,0 +1,57 @@
+.rn-skiff-mail-sec {
+    border-radius: 0.25rem;
+    background: #303030;
+    margin-left: 2.5rem;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.25s ease-in
+}
+
+.rn-skiff-mail-sec:hover {
+    margin-top: -2rem;
+}
+
+.rn-skiff-mail-sec .rn-mail-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.31rem 1.25rem 0.81rem 1.25rem;
+}
+
+.rn-skiff-mail-sec .rn-mail-header h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0125rem;
+}
+
+.rn-skiff-mail-sec .img-mail {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 4.38rem 0 1.25rem;
+}
+
+
+.rn-skiff-mail-sec .rn-mail-header button {
+    width: 1.875rem;
+    border-radius: 624.9375rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #242424;
+}
+
+.rn-skiff-mail-sec .rn-mail-header button img {
+    width: 100%;
+}
+
+.rn-skiff-mail-sec p {
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 1.05419rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+    padding: 0 1.25rem 0 1.25rem;
+}

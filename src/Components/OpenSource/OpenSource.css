@@ -1,0 +1,52 @@
+.rn-open-source {
+    margin: 2.5rem 4.25rem 11.42rem 2.5rem;
+    width: 50%;
+}
+
+.rn-open-source h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.09181rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.7rem;
+}
+
+.rn-open-source h1 span {
+    color: #FFCB30;
+    font-family: Inter;
+    font-size: 2.09181rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.7rem;
+}
+
+.rn-open-source p {
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 1.24025rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0125rem;
+}
+
+.rn-open-source .rn-open-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.rn-open-source .rn-open-btn button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.05419rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+    border-radius: 0.875rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.625rem 1.0625rem 0.65438rem 1.0625rem;
+}

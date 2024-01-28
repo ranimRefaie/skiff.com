@@ -1,0 +1,23 @@
+.rn-header {
+    width: 100%;
+    background: url('./image/SVG.svg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.rn-container {
+    margin-top: 2.5rem;
+    background: white;
+    width: 75rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:992px) {
+
+    .rn-container {
+        margin-top: 0;
+        padding: 0 0.5rem;
+    }
+}

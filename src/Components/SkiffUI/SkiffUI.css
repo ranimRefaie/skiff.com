@@ -1,0 +1,59 @@
+.rn-skiff-ui {
+    border-radius: 0.25rem;
+    background: #303030;
+    width: 50%;
+    margin-right: 2.5rem;
+    cursor: pointer;
+    transition: 0.25s ease-in
+}
+
+.rn-skiff-ui:hover {
+    margin-top: -2rem;
+}
+
+.rn-skiff-ui .rn-header-ui {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.31rem 0.69rem 0.81rem 1.25rem;
+}
+
+.rn-skiff-ui .rn-header-ui h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.2305rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6875rem;
+    /* 137.143% */
+    letter-spacing: -0.0125rem;
+}
+
+
+
+.rn-skiff-ui p {
+    color: #CFCFCF;
+    font-family: Inter;
+    font-size: 1.05419rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+    margin-left: 1.25rem;
+}
+
+.rn-skiff-ui .ui-img {
+    width: 90%;
+    margin: 1.94rem 1.25rem 0 1.25rem;
+}
+
+
+.rn-skiff-ui .rn-header-ui button {
+    width: 1.875rem;
+    border-radius: 624.9375rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: #242424;
+}
+
+.rn-skiff-ui .rn-header-ui button img {
+    width: 100%;
+}

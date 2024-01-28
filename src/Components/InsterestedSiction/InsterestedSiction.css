@@ -1,0 +1,22 @@
+.insterested-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 2.5rem 7.5rem;
+    border-radius: 0.75rem;
+    padding-left: 1.5rem;
+}
+
+.insterested-sec img {
+    width: 100%;
+}
+
+@media screen and (max-width:992px) {
+    .insterested-sec {
+        flex-direction: column;
+        margin: 0;
+        padding: 2rem 0.55rem;
+    }
+}

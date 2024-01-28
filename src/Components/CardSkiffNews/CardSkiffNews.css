@@ -1,0 +1,105 @@
+.cards-news {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem;
+}
+
+
+.cards-news .rn-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cards-news .rn-cards .rn-card {
+    width: 17.8125rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    padding: 1.06rem 1.06rem 1.12rem 1.06rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards-news .rn-cards .rn-card .img-card {
+    width: 15.6875rem;
+    margin: auto;
+}
+
+.cards-news .rn-cards .rn-card .img-card img {
+    width: 100%;
+}
+
+.cards-news .rn-cards .rn-card .rn-body-card {
+    position: relative;
+    width: 15.6875rem;
+    display: flex;
+    width: 15.6875rem;
+    padding-bottom: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+
+.cards-news .rn-cards .rn-card .rn-body-card h5 {
+    color: #303030;
+    font-family: Inter;
+    font-size: 1.05419rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+}
+
+.cards-news .rn-cards .rn-card .rn-body-card p {
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1375rem;
+    letter-spacing: -0.00438rem;
+}
+
+.cards-news .rn-cards .rn-card .btn-card {
+
+    border-top: 1px solid #EFEFEF;
+    width: 100%;
+}
+
+.cards-news .rn-cards .rn-card .btn-card button {
+    display: flex;
+    color: #696969;
+    font-family: Inter;
+    font-size: 0.86819rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1375rem;
+    letter-spacing: -0.00438rem;
+    text-transform: uppercase;
+    align-self: start;
+    margin-top: 1.25rem;
+    border-radius: 0.25rem;
+    background: #F5F5F5;
+    box-shadow: 0px -1px 0px 1px rgba(0, 0, 0, 0.10) inset, 0px 1px 0px 0px rgba(0, 0, 0, 0.10) inherit;
+}
+
+@media screen and (max-width:992px) {
+    .cards-news .rn-cards {
+        flex-direction: column;
+    }
+
+    .cards-news .rn-cards .rn-card,
+    .cards-news .rn-cards .rn-card .rn-body-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .cards-news {
+        margin: 1rem;
+        align-items: center;
+    }
+}

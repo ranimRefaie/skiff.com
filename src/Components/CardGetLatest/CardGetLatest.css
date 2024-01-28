@@ -1,0 +1,82 @@
+.rn-card-get-latest {
+    display: flex;
+    flex-direction: column;
+    margin: 10.5rem 7.5rem;
+}
+
+.rn-card-get-latest .rn-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+    gap: 1.38rem;
+
+}
+
+.rn-card-get-latest .rn-cards .rn-card {
+    width: 21.875rem;
+
+
+}
+
+.rn-card-get-latest .rn-cards .rn-card .img-card {
+    width: 100%;
+    margin: auto;
+    background: url(<path-to-image>), lightgray 0px -0.5px / 100% 100.578% no-repeat;
+}
+
+.rn-card-get-latest .rn-cards .rn-card .btn-card {
+    border-radius: 0.25rem;
+    background: #F5F5F5;
+    width: 100%;
+    margin: 1.06rem 0;
+}
+
+.rn-card-get-latest .rn-cards .rn-card .btn-card button {
+    color: #696969;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1375rem;
+    /* 130% */
+    letter-spacing: -0.00438rem;
+    text-transform: uppercase;
+}
+
+.rn-card-get-latest .rn-cards .rn-card .rn-body-card h5 {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+}
+
+.rn-card-get-latest .rn-cards .rn-card .rn-body-card p {
+    color: #707070;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.1375rem;
+    letter-spacing: -0.00438rem;
+}
+
+
+@media screen and (max-width:992px) {
+    .rn-card-get-latest .rn-cards {
+        flex-direction: column;
+    }
+
+    .rn-card-get-latest .rn-cards .rn-card,
+    .rn-card-get-latest .rn-cards .rn-card .rn-body-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .rn-card-get-latest {
+        margin: 2rem auto;
+        align-items: center;
+    }
+}

@@ -1,0 +1,41 @@
+.descrip-section {
+    width: 37.2225rem;
+}
+
+.descrip-section h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 2.083rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.7rem;
+}
+
+
+.descrip-section p {
+    color: #8F8F8F;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0125rem;
+}
+
+.descrip-section button {
+    color: #EF5A3C;
+    font-family: Inter;
+    font-size: 1.24025rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0125rem;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (max-width:992px) {
+    .descrip-section {
+        width: 100%;
+    }
+}

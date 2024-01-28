@@ -1,0 +1,24 @@
+.down-skiff-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(245, 245, 244, 1);
+    padding: 3.86rem 0;
+    margin: 0 7.5rem;
+}
+
+.down-skiff-sec img {
+    width: 29.7775rem;
+}
+
+@media screen and (max-width:992px) {
+    .down-skiff-sec {
+        flex-direction: column;
+        margin: 0;
+        padding: 2rem 0.55rem;
+    }
+
+    .down-skiff-sec img {
+        width: 100%;
+    }
+}
