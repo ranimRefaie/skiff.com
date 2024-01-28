@@ -1,0 +1,42 @@
+.card-essential {
+    display: flex;
+    margin: 5rem 7.5rem;
+    gap: 3rem;
+}
+
+.card-essential .rn-card {
+    width: 23rem;
+}
+
+.card-essential .rn-card h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0125rem;
+}
+
+.card-essential .rn-card p {
+    color: #AFAFAF;
+    font-family: Inter;
+    font-size: 1.05419rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.43438rem;
+    letter-spacing: -0.01063rem;
+}
+
+@media screen and (max-width:992px) {
+
+    .card-essential {
+        flex-direction: column;
+        margin: 2rem 0;
+        align-items: center;
+    }
+
+    .card-essential .rn-card {
+        width: 80%;
+    }
+}
