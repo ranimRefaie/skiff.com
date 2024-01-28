@@ -21,7 +21,19 @@
 }
 
 @media screen and (max-width:992px) {
+    .rn-trans-section {
+
+
+        margin: 1rem;
+        padding-bottom: 2.5rem;
+    }
+
     .rn-trans-section .rn-row {
         flex-direction: column;
+    }
+
+    .rn-trans-section .rn-row .rn-img-source {
+        width: 90%;
+        margin: 2.5rem 0;
     }
 }

@@ -57,3 +57,10 @@
 .rn-skiff-ui .rn-header-ui button img {
     width: 100%;
 }
+
+@media screen and (max-width:992px) {
+    .rn-skiff-ui {
+        width: 90%;
+        margin: auto;
+    }
+}

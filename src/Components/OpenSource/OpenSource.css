@@ -50,3 +50,21 @@
     background: rgba(255, 255, 255, 0.04);
     padding: 0.625rem 1.0625rem 0.65438rem 1.0625rem;
 }
+
+
+@media screen and (max-width:992px) {
+    .rn-open-source {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .rn-open-source .rn-open-btn {
+        justify-content: center;
+        gap: 0.5rem;
+        margin: auto;
+    }
+
+    .rn-open-source .rn-open-btn button {
+        padding: auto;
+    }
+}
