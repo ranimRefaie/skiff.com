@@ -1,11 +1,10 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./SliderTest.css";
-import "../CardGetLatest/CardGetLatest.css";
+import "./Slider.css";
 import dataCard from "../../Data/cardData2";
 
-const SliderTest = () => {
+const SliderIu = () => {
   const settings = {
     className: "center",
     infinite: true,
@@ -38,4 +37,4 @@ const SliderTest = () => {
   );
 };
 
-export default SliderTest;
+export default SliderIu;
