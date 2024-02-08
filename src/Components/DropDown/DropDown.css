@@ -12,9 +12,7 @@
 
 }
 
-.rn-button-dropdown {
-    width: 100%;
-}
+
 
 .dropdown-toggle::after,
 .dropdown-toggle.show::after {
@@ -57,9 +55,11 @@
     .rn-button-dropdown {
         border-bottom: 1px solid #505050;
         padding: 1rem 0 !important;
+        width: 100%;
     }
 
     .dropdown-toggle {
         padding-left: 1rem !important;
     }
+
 }

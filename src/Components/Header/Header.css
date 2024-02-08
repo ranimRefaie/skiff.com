@@ -9,7 +9,7 @@
 .rn-container {
     margin-top: 2.5rem;
     background: white;
-    width: 75rem;
+    width: 100% !important;
     display: flex;
     justify-content: center;
 }
