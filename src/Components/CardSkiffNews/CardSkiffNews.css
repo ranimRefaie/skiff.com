@@ -1,7 +1,12 @@
 .cards-news {
     display: flex;
     flex-direction: column;
-    margin: 0 5rem;
+    margin: auto;
+}
+
+.cards-news h1 {
+    margin: 1.32rem 0;
+    margin-left: 7.5rem;
 }
 
 

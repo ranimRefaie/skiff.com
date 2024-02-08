@@ -1,11 +1,11 @@
 .sec-create {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 8.75rem;
     background-color: rgba(245, 245, 244, 1);
-    margin: 0 7.5rem;
-    gap: 3rem;
+    margin: auto;
 }
 
 .sec-create .col-1 {
@@ -17,11 +17,15 @@
 }
 
 .sec-create .col-1 img {
-    width: 100%;
+    width: 90%;
 }
 
 .sec-create .col-2 {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

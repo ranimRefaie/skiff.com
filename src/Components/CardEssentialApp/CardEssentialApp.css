@@ -1,7 +1,9 @@
 .card-essential {
+    width: 100%;
     display: flex;
-    margin: 5rem 7.5rem;
+    margin: 5rem 0;
     gap: 3rem;
+    justify-content: center;
 }
 
 .card-essential .rn-card {

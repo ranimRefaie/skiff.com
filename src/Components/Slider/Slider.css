@@ -59,18 +59,32 @@
     letter-spacing: -0.00438rem;
 }
 
-.slick-arrow {
-    background-color: #ccc;
-}
 
 .slick-prev {
-    left: 1000px;
-    top: -40px;
+    left: 90%;
+    top: -55px;
 }
 
 .slick-next {
     right: 10px;
-    top: -40px;
+    top: -55px;
+}
+
+
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ccc;
+    font-size: 35px;
+
 }
 
 @media screen and (max-width:992px) {

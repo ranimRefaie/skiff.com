@@ -1,6 +1,6 @@
 .essential-section {
     display: flex;
-    margin: 0 7.5rem;
+    margin: auto;
     flex-wrap: wrap;
     max-width: 75rem;
 }
@@ -12,7 +12,6 @@
     font-style: normal;
     font-weight: 300;
     line-height: 3.3rem;
-    /* 119.83% */
     letter-spacing: -0.03rem;
 }
 
@@ -26,7 +25,6 @@
     font-style: normal;
     font-weight: 300;
     line-height: 3.3rem;
-    /* 116.846% */
     letter-spacing: -0.03rem;
     margin: 0 0.99rem;
 }
