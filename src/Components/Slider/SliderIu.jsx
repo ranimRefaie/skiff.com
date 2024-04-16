@@ -4,18 +4,75 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Slider.css";
 import dataCard from "../../Data/cardData2";
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#ccc",
+        color: "#ccc",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "#ccc",
+        color: "#ccc",
+        borderRadius: "50%",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
 const SliderIu = () => {
   const settings = {
     className: "center",
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    swipeToSlide: true,
-    afterChange: function (index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    },
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    swipeToSlide: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <Slider {...settings} className="rn-slide">

@@ -1,20 +1,19 @@
 .cards-news {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
+    width: 80%;
+    margin: 5rem auto;
 }
 
 .cards-news h1 {
-    margin: 1.32rem 0;
-    margin-left: 7.5rem;
+    margin: 3rem 0;
 }
 
 
 .cards-news .rn-cards {
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin: 5rem auto;
 }
 
 .cards-news .rn-cards .rn-card {
@@ -95,6 +94,8 @@
 @media screen and (max-width:992px) {
     .cards-news .rn-cards {
         flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 
     .cards-news .rn-cards .rn-card,

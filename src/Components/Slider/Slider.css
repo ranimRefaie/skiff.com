@@ -1,17 +1,14 @@
 .rn-slide {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
     padding: auto;
 }
 
-.rn-cards {
-    width: 100%;
-}
 
 .rn-slide .rn-card {
-    width: 21.875rem !important;
+    width: 20.875rem !important;
 }
 
 .rn-card .img-card {
@@ -19,6 +16,8 @@
     margin: auto;
     background: url(<path-to-image>), lightgray 0px -0.5px / 100% 100.578% no-repeat;
 }
+
+
 
 
 .rn-card .btn-card {
@@ -38,6 +37,8 @@
     letter-spacing: -0.00438rem;
     text-transform: uppercase;
 }
+
+
 
 .rn-card .rn-body-card h5 {
     color: #000;
@@ -59,33 +60,11 @@
     letter-spacing: -0.00438rem;
 }
 
-
-.slick-prev {
-    left: 90%;
-    top: -55px;
+.slick-prev::before,
+.slick-next::before {
+    color: #fff !important;
 }
 
-.slick-next {
-    right: 10px;
-    top: -55px;
-}
-
-
-
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
-    outline: none;
-    background: transparent;
-}
-
-.slick-prev:before,
-.slick-next:before {
-    color: #ccc;
-    font-size: 35px;
-
-}
 
 @media screen and (max-width:992px) {
     .rn-slide {
@@ -96,21 +75,8 @@
         width: 90% !important;
     }
 
-
-    .slick-prev {
-        left: 240px;
-        top: -40px;
-        background-color: #ccc;
-        color: #000;
-
-    }
-
-    .slick-slider {
-        width: 100%;
-    }
-
-    .rn-slide .rn-card,
     .rn-slide {
-        width: 100% !important;
+        width: 80% !important;
     }
+
 }
